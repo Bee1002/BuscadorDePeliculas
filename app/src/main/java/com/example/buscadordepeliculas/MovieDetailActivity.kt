@@ -50,7 +50,7 @@ class MovieDetailActivity : AppCompatActivity() {
             R.id.action_favorite -> {
                 isFavorite = !isFavorite
                 item.setIcon(if (isFavorite) R.drawable.ic_favorite else R.drawable.ic_favorite_border)
-                // TODO: Implementar lógica de favoritos
+
                 true
             }
             R.id.action_share -> {
