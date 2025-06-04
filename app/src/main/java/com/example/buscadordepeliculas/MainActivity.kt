@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
 
         viewModel.error.observe(this) { error ->
             error?.let {
-                // Show error message to user
+
                 android.widget.Toast.makeText(this, it, android.widget.Toast.LENGTH_LONG).show()
             }
         }
